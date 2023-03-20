@@ -1,0 +1,319 @@
+/* <!-- arka plan: #003142
+ana renk #33f4c9
+yazı #687f8c
+ana arka e1ffe7# -->
+
+    <!-- font-family: 'Inter', sans-serif;
+font-family: 'Sen', sans-serif; --> */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Sen', sans-serif;
+    background-color: #003142;
+    ;
+}
+
+body>img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.header {
+    min-height: 100vh;
+    min-width: 100%;
+
+}
+
+.content {
+
+    padding: 30px;
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.product {
+    margin-left: 150px;
+}
+
+h1 {
+    color: #33f4c9;
+    font-size: 6rem;
+    letter-spacing: 10px;
+}
+
+.text {
+    width: 400px;
+    margin: 15px 0 10px 0;
+    color: #687f8c;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #33f4c9;
+    color: #003142;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin: 20px 0;
+    border: 0.5px solid #003142;
+    color: #003142;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #003142;
+    color: #33f4c9;
+    border: 1px solid #33f4c9;
+}
+
+.twitter {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 25px 0px 0px 0px;
+    color: #687f8c;
+    font-size: 20px;
+}
+
+.images {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.img1 {
+    position: absolute;
+    z-index: -1;
+    top: 180px;
+    right: 17%;
+
+}
+
+.img2 {
+    position: absolute;
+    z-index: -1;
+    top: -50px;
+    right: 15%;
+
+}
+
+.img3 {
+    position: absolute;
+    z-index: -1;
+    top: 1px;
+    left: 6%;
+
+}
+
+.img4 {
+    position: absolute;
+    z-index: -1;
+    top: 320px;
+    right: 25%;
+
+}
+
+.img5 {
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    right: 31%;
+
+}
+
+.img6 {
+    position: absolute;
+    z-index: 2;
+    top: 210px;
+    right: 43%;
+
+}
+
+.textBoxAlt {
+    z-index: -2;
+}
+
+@media (max-width:500px) {
+
+    .img1,
+    .img4,
+    .img5 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-top: 25%;
+        letter-spacing: 3px
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .content {
+
+        padding: 10px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .logo {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .product {
+        margin-left: 20px;
+    }
+
+    .img6 {
+        position: absolute;
+        z-index: -1;
+        top: 330px;
+        right: 40%;
+        width: 100px;
+
+    }
+
+    .img2 {
+        top: 1px;
+        right: 28%;
+    }
+
+    .img3 {
+        top: 10px;
+
+    }
+
+    .img66 {
+        width: 180px;
+    }
+
+    .twitter {
+        margin-top: 100px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+
+    h1 {
+        font-size: 4rem;
+        margin-top: 25%;
+        letter-spacing: 1px
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .content {
+
+        padding: 10px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .logo {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .product {
+        margin-left: 20px;
+    }
+
+    .img11 {
+        width: 80px;
+    }
+
+
+.img22 {
+    width: 120px;
+}
+
+.img33 {
+    width: 90px;
+}
+
+.img44 {
+    width: 160px;
+}
+
+.img55 {
+    width: 80px;
+}
+
+.img66 {
+    width: 100px;
+}
+
+.img1 {
+    top: 150px;
+    right: 20px;
+}
+
+.img2 {
+    top: -45px;
+    right: 20px;
+
+}
+
+.img3 {
+    left: 30px;
+    top: 5px;
+
+}
+
+.img4 {
+    right: 50px;
+    top: 400px;
+
+}
+
+.img5 {
+    top: 90px;
+    right: 110px;
+
+}
+
+.img6 {
+    top: 260px;
+    right: 60px;
+
+}
+
+.twitter {
+    position: absolute;
+    bottom: -150px;
+    margin-bottom: 40px;
+}
+.btn {
+    
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: 0.5px solid #003142;
+    color: #003142;
+    font-weight: bold;
+    font-size: 15px;
+}
+}
